@@ -1,3 +1,13 @@
+$colorWhite: #ffffff;
+$colorPrimary: #002147;
+$colorTertiary: #f3f1ee;
+$colorLightPrimary: #122f53;
+$colorLinkHeader: #70a9d6;
+$colorLinkOverlay: #98c1e1;
+$colorScienceBlogButton: #09332b;
+$colorLinkOverlay: #98c1e1;
+$colorLinkHover: #44687d;
+
 #ApicoatMenu {
     position: fixed;
     width: 100%;
@@ -5,7 +15,7 @@
 }
 
 .NavbarItems {
-    background: #003262;
+    background: $colorPrimary;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -32,13 +42,13 @@
 }
 
 .nav-links {
-    color: #fff;
+    color: #f3f1ee;
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
 
 .nav-links:hover {
-    background-color: #6d76f7;
+    background-color: $colorLinkHeader;
     border-radius: 4px;
     transition: all 0.2s ease-out;
 }
@@ -46,22 +56,22 @@
 .demoButton {
     padding: 11px 16px 9px 16px;
     border-radius: 100px;
-    border: 1px solid #00b0da;
-    background: linear-gradient(134.49deg, #003262 0%, #2d637f 105.05%);
+    border: 1px solid #5f9baf;
+    background: linear-gradient(134.49deg, #003947 0%, #44687d 105.05%);
     margin-left: 24px;
     margin-right: 0px;
 }
 
 .demoButton:hover {
     border-radius: 100px;
-    border: solid 1px #00b0da;
-    color: #fff;
-    background: linear-gradient(134.49deg, #2d637f 0%, #003262 105.05%);
+    border: solid 1px #5f9baf;
+    color: $colorWhite;
+    background: linear-gradient(134.49deg, #44687d 0%, #003947 105.05%);
     text-decoration: none;
 }
 
 .fa-bars {
-    color: #fff;
+    color: $colorWhite;
 }
 
 .nav-links-mobile {
@@ -87,7 +97,7 @@
 }
 
 .size1:hover {
-    color: #ff9c31;
+    color: $colorLinkOverlay;
     text-decoration: none;
 }
 
@@ -102,7 +112,7 @@
 }
 
 .size2:hover {
-    color: #ff9c31;
+    color: $colorLinkOverlay;
     text-decoration: none;
 }
 
@@ -128,13 +138,13 @@
     line-height: 29.26px;
     letter-spacing: 2px;
     text-align: left;
-    color: #fff;
+    color: $colorWhite;
     cursor: pointer;
     text-decoration: none;
 }
 
 .NavbarMenuItemLogo:hover {
-    color: #ddd;
+    color: #e0ded9;
     text-decoration: none;
 }
 
@@ -144,26 +154,21 @@
 }
 
 @media screen and (max-width: 1240px){ /* iPad Pro */
-    .NavbarItems {
-        position: relative;
-    }
-
     .nav-menu {
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 600px;
+        height: 530px;
         position: absolute;
         top: 80px;
         left: -100%;
         opacity: 1;
         transition: all 0.5s ease;
-        margin-bottom: 0rem;
         padding-left: 0px;
     }
 
     .nav-menu.active {
-        background: linear-gradient(90deg, rgba(21, 67, 240, 0) -550%, rgb(21,67,240) 100%);
+        background: linear-gradient(90deg, #a1c4d0 -550%, #5f9baf 100%);
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
@@ -172,15 +177,15 @@
 
     .nav-links {
         text-align: center;
-        padding: 1.2rem;
+        padding: 1rem;
         width: 100%;
         display: table;
     }
 
     .nav-links:hover {
-        background-color: #00b0da;
+        background-color: $colorLinkOverlay;
         border-radius: 0;
-        color: #ddd;
+        color: $colorLinkHover;
     }
 
     .demoButton {
@@ -207,7 +212,7 @@
     }
 
     .fa-times {
-        color: #fff;
+        color: $colorWhite;
         font-size: 2rem;
     }
 
@@ -218,20 +223,21 @@
         margin: 2rem auto;
         border-radius: 13px;
         width: 80%;
-        background: #00b0da;
+        background: $colorScienceBlogButton;
         text-decoration: none;
-        color: #fff;
+        color: $colorWhite;
         font-size: 1.5rem;
     }
 
     .nav-links-mobile:hover {
-        background: #fff;
-        color: #6568f4;
+        background: $colorTertiary;
+        color: $colorLightPrimary;
         transition: 250ms;
+        text-decoration: none;
     }
 
     .size1 {
-        margin-top: 10px;
+        margin-top: 5px;
         font-size: 20px;
     }
     
