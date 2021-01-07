@@ -2,7 +2,7 @@ $colorWhite: #ffffff;
 $colorPrimary: #002147;
 $colorTertiary: #f3f1ee;
 $colorLightPrimary: #122f53;
-$colorLinkHeader: #70a9d6;
+$colorVeryLightBlue: #f0f5f8;
 $colorLinkOverlay: #98c1e1;
 $colorScienceBlogButton: #09332b;
 $colorLinkOverlay: #98c1e1;
@@ -48,7 +48,7 @@ $colorLinkHover: #44687d;
 }
 
 .nav-links:hover {
-    background-color: $colorLinkHeader;
+    background-color: $colorVeryLightBlue;
     border-radius: 4px;
     transition: all 0.2s ease-out;
 }
