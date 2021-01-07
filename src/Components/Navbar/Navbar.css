@@ -1,4 +1,4 @@
-#ApiCoatMenu {
+#ApicoatMenu {
     position: fixed;
     width: 100%;
     z-index: 100;
@@ -6,10 +6,11 @@
 
 .NavbarItems {
     background: #003262;
-    height: 64px;
+    height: 80px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 1.2rem;
-    padding-top: 17px;
 }
 
 .fa-react {
@@ -36,10 +37,6 @@
     padding: 0.5rem 1rem;
 }
 
-.lastItem{
-    margin-right: 24px;
-}
-
 .nav-links:hover {
     background-color: #6d76f7;
     border-radius: 4px;
@@ -49,17 +46,17 @@
 .demoButton {
     padding: 11px 16px 9px 16px;
     border-radius: 100px;
-    border: 1px solid #0984E3;
-    background: linear-gradient(134.49deg, #0090FF 0%, #1543F0 105.05%);
+    border: 1px solid #00b0da;
+    background: linear-gradient(134.49deg, #003262 0%, #2d637f 105.05%);
     margin-left: 24px;
     margin-right: 0px;
 }
 
 .demoButton:hover {
     border-radius: 100px;
-    border: solid 1px #1543f0;
+    border: solid 1px #00b0da;
     color: #fff;
-    background: linear-gradient(134.49deg, #1543F0 0%, #0090FF 105.05%);
+    background: linear-gradient(134.49deg, #2d637f 0%, #003262 105.05%);
     text-decoration: none;
 }
 
@@ -79,6 +76,50 @@
     margin-left: 105px;
 }
 
+.size1 {
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 0.15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.size1:hover {
+    color: #ff9c31;
+    text-decoration: none;
+}
+
+.size2 {
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: 0.18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.size2:hover {
+    color: #ff9c31;
+    text-decoration: none;
+}
+
+.size3 {
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: 0.18px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 24px;
+}
+
+
+
 .NavbarMenuItemLogo {
     font-size: 24px;
     font-weight: 700;
@@ -86,7 +127,6 @@
     font-family: 'Montserrat', sans-serif;
     line-height: 29.26px;
     letter-spacing: 2px;
-    margin-left: 24px;
     text-align: left;
     color: #fff;
     cursor: pointer;
@@ -95,6 +135,12 @@
 
 .NavbarMenuItemLogo:hover {
     color: #ddd;
+    text-decoration: none;
+}
+
+.navbar-logo {
+    margin-bottom: 0px;
+    transform: translate(25%, 0%);
 }
 
 @media screen and (max-width: 1240px){ /* iPad Pro */
@@ -113,6 +159,7 @@
         opacity: 1;
         transition: all 0.5s ease;
         margin-bottom: 0rem;
+        padding-left: 0px;
     }
 
     .nav-menu.active {
@@ -128,13 +175,12 @@
         padding: 1.2rem;
         width: 100%;
         display: table;
-        cursor: pointer;
     }
 
     .nav-links:hover {
-        background-color: #00ced1;
+        background-color: #00b0da;
         border-radius: 0;
-        color: #696969;
+        color: #ddd;
     }
 
     .demoButton {
@@ -147,10 +193,7 @@
 
     .navbar-logo {
         position: absolute;
-        top: 0;
         left: 0;
-        transform: translate(25%, 50%);
-        margin-top:50px;
     }
 
     .menu-icon {
@@ -175,7 +218,7 @@
         margin: 2rem auto;
         border-radius: 13px;
         width: 80%;
-        background: #4ad9e4;
+        background: #00b0da;
         text-decoration: none;
         color: #fff;
         font-size: 1.5rem;
@@ -185,6 +228,19 @@
         background: #fff;
         color: #6568f4;
         transition: 250ms;
+    }
+
+    .size1 {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    
+    .size2 {
+        font-size: 20px;
+    }
+    
+    .size3 {
+        font-size: 20px;
     }
 
     .NavbarMenuItemLogo {

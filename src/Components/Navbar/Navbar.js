@@ -10,14 +10,14 @@ class Navbar extends Component {
         this.setState({ clicked: !this.state.clicked })
     }
 
-    ApiCoatClick = () => {
+    apicoatClick = () => {
         this.setState({ clicked: this.state.clicked })
     }
 
     render() {
         return(
-            <nav className="NavbarItems" id="ApiCoatMenu">
-                <p className="navbar-logo"><NavLink to="/" className="NavbarMenuItemLogo" onClick={ this.ApiCoatClick } style={{ fontWeight: '700'}}>APICOAT</NavLink></p>
+            <nav className="NavbarItems" id="ApicoatMenu">
+                <p className="navbar-logo"><NavLink to="/" className="NavbarMenuItemLogo" onClick={ this.apicoatClick } style={{ fontWeight: '700'}}>APICOAT</NavLink></p>
                 
                 <div className="menu-icon" onClick={ this.handleClick }>
                     <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
@@ -30,6 +30,7 @@ class Navbar extends Component {
                         );
                     })}
                 </ul>
+                {/* <Button>REQUEST DEMO</Button> */}  
             </nav>
         );
     }
