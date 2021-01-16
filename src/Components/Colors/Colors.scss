@@ -1,77 +1,278 @@
 // These are the colors that I will use for ApiCoat
 
 // Brand Colours
-$colorPrimary: #002147;
-$colorSecondary: #a79d96;
-$colorTertiary: #f3f1ee;
-$colorLightPrimary: #122f53;
+$OxfordColorPrimary: #002147;
+$OxfordColorSecondary: #a79d96;
+$OxfordColorTertiary: #f3f1ee;
+$OxfordColorLightPrimary: #122f53;
 
 // General/secondary colours
-$colorDarkBlue: #001c3d;
-$colorWashedOutBlue: #193658;
-$colorCopyrightGrey: #c7c2bc;
-$colorBeigeGrey: #f3f1ec;
-$colorBrownGrey: #001c3d;
-$colorFilterFormGreen: #043946;
-$colorIconBlueGrey: #a1c4d0;
-$colorTeal: #003947;
-$colorVeryLightBlue: #f0f5f8;
-$colorCookieBar: #00152e;
-$colorBlueGrey: #353c47;
+$OxfordColorDarkBlue: #001c3d;
+$OxfordColorWashedOutBlue: #193658;
+$OxfordColorCopyrightGrey: #c7c2bc;
+$OxfordColorBeigeGrey: #f3f1ec;
+$OxfordColorBrownGrey: #001c3d;
+$OxfordColorFilterFormGreen: #043946;
+$OxfordColorIconBlueGrey: #a1c4d0;
+$OxfordColorTeal: #003947;
+$OxfordColorVeryLightBlue: #f0f5f8;
+$OxfordColorCookieBar: #00152e;
+$OxfordColorBlueGrey: #353c47;
 
 // Link colours
-$colorLink: #3277ae;
-$colorLinkHover: #44687d;
-$colorAltLinkHover: #be0f34;
-$colorLinkHeader: #70a9d6;
-$colorLinkOverlay: #98c1e1;
+$OxfordColorLink: #3277ae;
+$OxfordColorLinkHover: #44687d;
+$OxfordColorAltLinkHover: #be0f34;
+$OxfordColorLinkHeader: #70a9d6;
+$OxfordColorLinkOverlay: #98c1e1;
 
 // Shades
-$colorBlack: #000000;
-$colorOffBlack: #333333;
-$colorMidGrey: #7a736e;
-$colorDarkGrey: #a6a6a6;
-$colorLightGrey: #e0ded9;
-$colourVLightGrey: #f9f8f5;
-$colorWhite: #ffffff;
+$OxfordColorBlack: #000000;
+$OxfordColorOffBlack: #333333;
+$OxfordColorMidGrey: #7a736e;
+$OxfordColorDarkGrey: #a6a6a6;
+$OxfordColorLightGrey: #e0ded9;
+$OxfordColourVLightGrey: #f9f8f5;
+$OxfordColorWhite: #ffffff;
 
 // Custom blog colours
-$colorScienceBlog: #0f7361;
-$colorScienceBlogButton: #09332b;
-$colorArtsBlog: #721627;
-$colorArtsBlogButton: #330d14;
-$colorBooksBlog: #cf7a30;
-$colorBooksBlogButton: #9c4700;
+$OxfordColorScienceBlog: #0f7361;
+$OxfordColorScienceBlogButton: #09332b;
+$OxfordColorArtsBlog: #721627;
+$OxfordColorArtsBlogButton: #330d14;
+$OxfordColorBooksBlog: #cf7a30;
+$OxfordColorBooksBlogButton: #9c4700;
 
 // Graduate country page colours
-$colorGraduateLightBlue: #9eceeb;
-$colorGraduateBlue: #5f9baf;
-$colorGraduateNavyBlue: #44687d;
-$colorGraduateGreyBlue: #a1c4d0;
-$colorGraduateDarkGreen: #69913b;
-$colorGraduateLightGreen: #aab300;
-$colorGraduateOrange: #cf7a30;
-$colorGraduateYellow: #f5cf47;
-$colorGraduateDarkRed: #872434;
-$colorGraduateRed: #be0f34;
-$colorGraduatePink: #ebc4cb;
-$colorGraduateGrey: #a79d96;
+$OxfordColorGraduateLightBlue: #9eceeb;
+$OxfordColorGraduateBlue: #5f9baf;
+$OxfordColorGraduateNavyBlue: #44687d;
+$OxfordColorGraduateGreyBlue: #a1c4d0;
+$OxfordColorGraduateDarkGreen: #69913b;
+$OxfordColorGraduateLightGreen: #aab300;
+$OxfordColorGraduateOrange: #cf7a30;
+$OxfordColorGraduateYellow: #f5cf47;
+$OxfordColorGraduateDarkRed: #872434;
+$OxfordColorGraduateRed: #be0f34;
+$OxfordColorGraduatePink: #ebc4cb;
+$OxfordColorGraduateGrey: #a79d96;
 
 // Error colours
-$colorStatus: #7dbc23;
-$colorWarning: #bc9a23;
-$colorError: #be0f34;
-$colorErrorLight: #fff0f3;
+$OxfordColorStatus: #7dbc23;
+$OxfordColorWarning: #bc9a23;
+$OxfordColorError: #be0f34;
+$OxfordColorErrorLight: #fff0f3;
 
 // Social media colours
-$colorCherry: #be0f34;
-$colorPurple: #ac48bf;
-$colorRed: #c7302b;
-$colorLightBlue: #1daced;
-$colorDeepBlue: #001c3d;
-$colorLagoonBlue: #006599;
-$colorWeibo: #d62a2a;
-$colorGreen: #177770;
-$colorOrange: #fb8113;
-$colorGooglePlus: #d34836;
-$colorInstagram: #517fa4;
+$OxfordColorCherry: #be0f34;
+$OxfordColorPurple: #ac48bf;
+$OxfordColorRed: #c7302b;
+$OxfordColorLightBlue: #1daced;
+$OxfordColorDeepBlue: #001c3d;
+$OxfordColorLagoonBlue: #006599;
+$OxfordColorWeibo: #d62a2a;
+$OxfordColorGreen: #177770;
+$OxfordColorOrange: #fb8113;
+$OxfordColorGooglePlus: #d34836;
+$OxfordColorInstagram: #517fa4;
+
+// Core palette
+$CambridgePantone199C: #d50032;
+$CambridgePantone285cC: #0072ce;
+$CambridgePantone158C: #e87722;
+$CambridgePantone369C: #64a70b;
+$CambridgePantone513C: #93328e;
+$CambridgePantone7466C: #00b0b9;
+
+// Darker palette
+$CambridgePantone1955C: #8a1538;
+$CambridgePantone541C: #003c71;
+$CambridgePantone718C: #be4d00;
+$CambridgePantone574C: #4e5b31;
+$CambridgePantone669C: #3f2a56;
+$CambridgePantone5473C: #115e67;
+
+// Lighter palette
+$CambridgePantone197C: #E89CAE;
+$CambridgePantone284C: #6CACE4;
+$CambridgePantone142C: #f1be48;
+$CambridgePantone583c: #b7bf10;
+$CambridgePantone5215C: #af95a6;
+$CambridgePantone557C: #85b09a;
+
+// Private palette
+$CambridgePantone032C: #ef3340;
+$CambridgePantone109C: #ffd100;
+
+// Blues
+$YaleBlue1: #00356b;
+$YaleBlue2: #286dc0;
+$YaleBlue3: #63aaff;
+
+// Grays
+$YaleGray1: #222222;
+$YaleGray2: #4a4a4a;
+$YaleGray3: #978d85;
+$YaleGray4: #dddddd;
+$YaleGray5: #f9f9f9;
+
+// Accent Colors
+$YaleAccent1: #5f712d;
+$YaleAccent2: #bd5319;
+
+// Harvard Colors
+$HarvardCrimson: #a51c30;
+$HarvardRed: #ed1b34;
+$HarvardSalmon: #ec8f9c;
+$HarvardBlack: #000000;
+$HarvardGrey: #93a1ad;
+$HarvardGreen: #4db848;
+$HarvardLimeGreen: #cbdb2a;
+$HarvardBlue: #4e88c7;
+$HarvardSkyBlue: #95b5df;
+$HarvardWarmYellow: #fcb315;
+$HarvardYellow: #ffde2d;
+$HarvardTurquoise: #00aaad;
+$HarvardAquamarine: #77ced9;
+$HarvardPurple: #946eb7;
+$HarvardLavender: #bb89ca;
+
+// MIT Colors
+$Pantone201C: #a31f34;
+$Pantone423C: #8a8b8c;
+$Pantone420C: #c2c0bf;
+
+// Core colors
+$ImperialNavy: #002147;
+$ImperialImperialBlue: #003e74;
+$ImperialLightGrey: #ebeeee;
+$ImperialCoolGrey: #9d9d9d;
+$ImperialLightBlue: #d4effc;
+
+// Supporting colors
+$ImperialBlue: #006eaf;
+$ImperialProcessBlue: #0091d4;
+$ImperialPoolBlue: #00acd7;
+$ImperialDarkTeal: #0f8291;
+$ImperialTeal: #009cbc;
+$ImperialSeaglass: #379f9f;
+$ImperialDarkGreen: #02893b;
+$ImperialKermitGreen: #66a40a;
+$ImperialLime: #bbce00;
+
+// Warm colors
+$ImperialOrange: #d24000;
+$ImperialTangerine: #ec7300;
+$ImperialLemonYellow: #ffdd00;
+$ImperialBrick: #a51900;
+$ImperialRed: #dd2501;
+$ImperialCherry: #e40043;
+$ImperialRaspberry: #9f004e;
+$ImperialMagentaPink: #c81e78;
+$ImperialIris: #751e66;
+$ImperialViolet: #960078;
+$ImperialPlum: #321e6d;
+$ImperialPurple: #653098;
+
+// Black and white
+$ETHSchwarz: #000000;
+$ETHWeiss: #ffffff;
+
+// Color palette ETH 1 to 9
+$ETHPantone294: #1f407a;
+$ETHPantone7483: #485a2c;
+$ETHPantone2935: #1269b0;
+$ETHPantone392: #72791c;
+$ETHPantone234: #91056a;
+$ETHPantoneCoolGray9: #6f6f6f;
+$ETHPantone1797: #a8322d;
+$ETHPantone633: #007a96;
+$ETHPantone7512: #956013;
+
+// ETH 1 Shades
+$ETHShades1-80: #385c9b;
+$ETHShades1-60: #748db9;
+$ETHShades1-40: #a0b1d0;
+$ETHShades1-20: #cdd6e6;
+$ETHShades1-10: #e6ebf3;
+
+// ETH 2 Shades
+$ETHShades2-80: #67804e;
+$ETHShades2-60: #8da07a;
+$ETHShades2-40: #b3c0a7;
+$ETHShades2-20: #d9dfd3;
+$ETHShades2-10: #ecefe9;
+
+// ETH 3 Shades
+$ETHShades3-80: #4187C0;
+$ETHShades3-60: #71A5D0;
+$ETHShades3-40: #A0C3DF;
+$ETHShades3-20: #D0E1EF;
+$ETHShades3-10: #E7F0F7;
+
+// ETH 4 Shades
+$ETHShades4-80: #8E9449;
+$ETHShades4-60: #AAAF77;
+$ETHShades4-40: #C7C9A4;
+$ETHShades4-20: #E3E4D2;
+$ETHShades4-10: #F1F1E8;
+
+// ETH 5 Shades
+$ETHShades5-80: #A73788;
+$ETHShades5-60: #BD69A5;
+$ETHShades5-40: #D39BC3;
+$ETHShades5-20: #E9CDE1;
+$ETHShades5-10: #F4E6F0;
+
+// ETH 6 Shades
+$ETHShades6-80: #8C8C8C;
+$ETHShades6-60: #A9A9A9;
+$ETHShades6-40: #C5C5C5;
+$ETHShades6-20: #E2E2E2;
+$ETHShades6-10: #F1F1F1;
+
+// ETH 7 Shades
+$ETHShades7-80: #BF534F;
+$ETHShades7-60: #CF7E7B;
+$ETHShades7-40: #DFA9A7;
+$ETHShades7-20: #EFD4D3;
+$ETHShades7-10: #F7EAE9;
+
+// ETH 8 Shades
+$ETHShades8-80: #3395AB;
+$ETHShades8-60: #66AFC0;
+$ETHShades8-40: #99CAD5;
+$ETHShades8-20: #CCE4EA;
+$ETHShades8-10: #E5F2F5;
+
+// ETH 9 Shades
+$ETHShades9-80: #AA8042;
+$ETHShades9-60: #C0A071;
+$ETHShades9-40: #D5C0A1;
+$ETHShades9-20: #EADFD0;
+$ETHShades9-10: #F4EFE7;
+
+// UCL colors
+$UCLDarkGreen: #555025;
+$UCLMidGreen: #8f993e;
+$UCLBrightGreen: #b5bd00;
+$UCLLightGreen: #bbc592;
+$UCLYellow: #f6be00;
+$UCLDarkRed: #651d32;
+$UCLMidRed: #93272c;
+$UCLBrightRed: #d50032;
+$UCLLightRed: #e03c31;
+$UCLOrange: #ea7600;
+$UCLDarkPurple: #4b384c;
+$UCLMidPurple: #500778;
+$UCLBrightPurple: #ac145a;
+$UCLLightPurple: #c6b0bc;
+$UCLGrey: #8c8279;
+$UCLDarkBlue: #003d4c;
+$UCLMidBlue: #002855;
+$UCLBrightBlue: #0097a9;
+$UCLLightBlue: #8db9ca;
+$UCLBlueCeleste: #a4dbe8;
+$UCLDarkBrown: #4e3629;
+$UCLStone: #d6d2c4;
+$UCLEducationBlue: #3255a4;
