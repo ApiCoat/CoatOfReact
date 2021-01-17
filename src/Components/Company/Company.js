@@ -2,20 +2,18 @@ import React, { useState } from 'react';
 import './Company.css';
 import { Helmet } from "react-helmet";
 
-import { I18Provider, LOCALES } from '../../i18n';
-import t from '../../i18n/translate';
+import i18next from 'i18next';
+import { useTranslation } from 'react-i18next';
 
 const Company = () => {
-  const [locale, setLocale] = useState(LOCALES.ENGLISH);
+  const { t } = useTranslation();
   return (
-        <I18Provider locale={ locale }>
           <div>
             <Helmet>
                 <title>Company</title>
             </Helmet>
-            <h1>Company</h1>
+            <h1>{t('Company.1')}</h1>
           </div>
-        </I18Provider>
   );
 }
 export default Company;

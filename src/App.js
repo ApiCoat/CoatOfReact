@@ -2,6 +2,7 @@ import React from "react";
 import Grid from '@material-ui/core/Grid';
 import { makeStyles } from '@material-ui/core/styles';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Footer from './Components/Footer/Footer';
 
 import Navbar from './Components/Navbar/Navbar';
 import Homepage from './Components/Homepage/Homepage';
@@ -44,6 +45,9 @@ function App() {
                 <Route path="/company" component={ Company } />
                 <Route component={ Notfound } />
           </Switch>
+        </Grid>
+        <Grid item xs={12} style={{ paddingRight: 0, paddingBottom: 0 }}>
+          <Footer />
         </Grid>
       </Grid>
     </Router>
