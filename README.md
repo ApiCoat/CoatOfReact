@@ -3,7 +3,7 @@ This theme is specifically made for ApiCoat as an open source code.
 Live link: 
 ## https://apicoat.netlify.app/
 
-It includes Page Routing, i18n Localization(EN-DE-NL), Helmet, Bootstrap, jQuery and all of them are working great.
+It includes Page Routing, i18next Localization(EN-DE-NL), Helmet, Bootstrap, jQuery and all of them are working great.
 
 Please do contribute to complete this work and carry this out of its scope. It is getting really great day by day :)
 
