@@ -1,9 +1,7 @@
 import React from "react";
 import Grid from '@material-ui/core/Grid';
-import { makeStyles } from '@material-ui/core/styles';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Footer from './Components/Footer/Footer';
-
 import Navbar from './Components/Navbar/Navbar';
 import Homepage from './Components/Homepage/Homepage';
 import Solutions from './Components/Solutions/Solutions';
@@ -12,19 +10,7 @@ import Technology from './Components/Technology/Technology';
 import Resources from './Components/Resources/Resources';
 import Company from './Components/Company/Company';
 import Notfound from './Components/Notfound/Notfound';
-
 import './App.css';
-
-const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-  },
-  paper: {
-    padding: theme.spacing(0),
-    textAlign: 'center',
-    color: theme.palette.text.secondary,
-  },
-}));
 
 function App() {
   return (

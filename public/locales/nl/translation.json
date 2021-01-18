@@ -1,20 +1,52 @@
 {
     "Homepage": {
+        "0": "Startpagina",
         "1": "Startpagina"
     },
     "Solutions": {
+        "0": "Oplossingen",
         "1": "Oplossingen"
     },
     "Products": {
+        "0": "Producten",
         "1": "Producten"
     },
+    "Products1": {
+        "0": "Producten1"
+    },
+    "Products2": {
+        "0": "Producten2"
+    },
+    "Products3": {
+        "0": "Producten3"
+    },
+    "Products4": {
+        "0": "Producten4"
+    },
     "Technology": {
+        "0": "Technologie",
         "1": "Technologie"
     },
     "Resources": {
+        "0": "Middelen",
         "1": "Middelen"
     },
     "Company": {
+        "0": "Bedrijf",
         "1": "Bedrijf"
+    },
+    "Login": {
+        "0": "LOG IN"
+    },
+    "Demo": {
+        "0": "VRAAG DEMO AAN"
+    },
+    "NotFound": {
+        "0": "404 - Niet gevonden"
+    },
+    "Languages": {
+        "English": "Engels",
+        "German":"Duitse",
+        "Dutch": "Nederlands"
     }
 }

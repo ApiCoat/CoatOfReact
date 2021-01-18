@@ -1,18 +1,16 @@
-import React, { useState } from 'react';
-import './Notfound.css';
 import { Helmet } from "react-helmet";
-
-import i18next from 'i18next';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
+import './Notfound.scss';
 
 const Notfound = () => {
   const { t } = useTranslation();
   return (
           <div>
             <Helmet>
-                <title>Notfound</title>
+                <title>{t("NotFound.0")}</title>
             </Helmet>
-            <h1>404 - Not Found</h1>
+            <h1>{t("NotFound.0")}</h1>
           </div>
   );
 }

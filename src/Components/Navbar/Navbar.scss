@@ -1,5 +1,6 @@
 $colorWhite: #ffffff;
 $colorPrimary: #002147;
+$colorDarkBlue: #000A32;
 $colorTertiary: #f3f1ee;
 $colorLightPrimary: #122f53;
 $colorVeryLightBlue: #f0f5f8;
@@ -8,7 +9,7 @@ $colorScienceBlogButton: #09332b;
 $colorLinkOverlay: #98c1e1;
 $colorLinkHover: #44687d;
 
-#ApicoatMenu {
+#apiCoatMenu {
     position: fixed;
     width: 100%;
     z-index: 100;
@@ -21,6 +22,7 @@ $colorLinkHover: #44687d;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
+    padding-top: 13px;
 }
 
 .fa-react {
@@ -83,7 +85,7 @@ $colorLinkHover: #44687d;
 }
 
 .loginButton {
-    margin-left: 105px;
+    margin-left: 48px;
 }
 
 .size1 {
@@ -125,7 +127,7 @@ $colorLinkHover: #44687d;
     letter-spacing: 0.18px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    margin-right: 24px;
+    margin-right: 36px;
 }
 
 
@@ -133,6 +135,8 @@ $colorLinkHover: #44687d;
 .NavbarMenuItemLogo {
     font-size: 24px;
     font-weight: 700;
+    margin-right: 48px;
+    margin-left: 40px;
     font-style: bold;
     font-family: 'Montserrat', sans-serif;
     line-height: 29.26px;
@@ -149,9 +153,44 @@ $colorLinkHover: #44687d;
 }
 
 .navbar-logo {
+    margin-top: 0px;
     margin-bottom: 0px;
-    transform: translate(25%, 0%);
+    transform: translate(-6%, -30%);
 }
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #c7c2bc;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f3f1ec;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
 
 @media screen and (max-width: 1240px){ /* iPad Pro */
     .nav-menu {

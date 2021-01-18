@@ -1,20 +1,52 @@
 {
     "Homepage": {
+        "0": "Startseite",
         "1": "Startseite"
     },
     "Solutions": {
+        "0": "Lösungen",
         "1": "Lösungen"
     },
     "Products": {
+        "0": "Produkte",
         "1": "Produkte"
     },
+    "Products1": {
+        "0": "Produkte1"
+    },
+    "Products2": {
+        "0": "Produkte2"
+    },
+    "Products3": {
+        "0": "Produkte3"
+    },
+    "Products4": {
+        "0": "Produkte4"
+    },
     "Technology": {
+        "0": "Technologie",
         "1": "Technologie"
     },
     "Resources": {
+        "0": "Ressourcen",
         "1": "Ressourcen"
     },
     "Company": {
+        "0": "Unternehmen",
         "1": "Unternehmen"
+    },
+    "Login": {
+        "0": "EINLOGGEN"
+    },
+    "Demo": {
+        "0": "DEMO ANFORDERN"
+    },
+    "NotFound": {
+        "0": "404 - Nicht gefunden"
+    },
+    "Languages": {
+        "English": "Englisch",
+        "German":"Deutsche",
+        "Dutch": "Niederländisch"
     }
 }

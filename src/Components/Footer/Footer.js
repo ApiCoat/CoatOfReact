@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
 import i18next from 'i18next';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
@@ -14,13 +14,13 @@ const Footer = () => {
             <div className="App">
                 <nav style={{ width: '100%', padding: '2rem 0', backgroundColor:'gray' }}>
                 <button onClick={()=>handleClick('en')} >
-                    English
+                    {t("Languages.English")}
                 </button>
                 <button onClick={()=>handleClick('de')} >
-                    German
+                    {t("Languages.German")}
                 </button>
                 <button onClick={()=>handleClick('nl')} >
-                    Dutch
+                    {t("Languages.Dutch")}
                 </button>
                 </nav>
             </div>
