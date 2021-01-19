@@ -44,6 +44,9 @@
     "NotFound": {
         "0": "404 - Niet gevonden"
     },
+    "CookiesText": {
+        "0": "Deze website maakt gebruik van cookies om de gebruikerservaring te verbeteren."
+    },
     "Languages": {
         "English": "Engels",
         "German":"Duitse",

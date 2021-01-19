@@ -44,6 +44,9 @@
     "NotFound": {
         "0": "404 - Nicht gefunden"
     },
+    "CookiesText": {
+        "0": "Diese Website verwendet Cookies, um die Benutzererfahrung zu verbessern."
+    },
     "Languages": {
         "English": "Englisch",
         "German":"Deutsche",

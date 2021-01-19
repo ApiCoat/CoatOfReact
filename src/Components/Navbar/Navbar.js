@@ -32,10 +32,10 @@ const Navbar = () => {
           >
             <div className="dropdown">
             <NavLink to='/products' className="nav-links size1">
-              {t("Products.0")} <i class="fas fa-caret-down"></i>
+              {t("Products.0")} <i className="fas fa-caret-down"></i>
             </NavLink>
 
-            <div class="dropdown-content">
+            <div className="dropdown-content">
               <NavLink to='/product1'>
               {t("Products1.0")}
               </NavLink>
