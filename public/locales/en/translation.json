@@ -33,7 +33,19 @@
     },
     "Company": {
         "0": "Company",
-        "1": "Company"
+        "1": "Company",
+        "2": "Name",
+        "3": "Surname",
+        "4": "Employees"
+    },
+    "Contact": {
+        "0": "Contact us",
+        "1": "Name",
+        "2": "Country",
+        "3": "Brand",
+        "4": "Model",
+        "5": "E-mail",
+        "6": "Send Request"
     },
     "Login": {
         "0": "LOG IN"

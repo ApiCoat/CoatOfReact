@@ -33,7 +33,19 @@
     },
     "Company": {
         "0": "Unternehmen",
-        "1": "Unternehmen"
+        "1": "Unternehmen",
+        "2": "Name",
+        "3": "Nachname",
+        "4": "Angestellte"
+    },
+    "Contact": {
+        "0": "Kontaktiere uns",
+        "1": "Name",
+        "2": "Land",
+        "3": "Marke",
+        "4": "Modell",
+        "5": "Email",
+        "6": "Anfrage senden"
     },
     "Login": {
         "0": "EINLOGGEN"

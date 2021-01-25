@@ -33,7 +33,19 @@
     },
     "Company": {
         "0": "Bedrijf",
-        "1": "Bedrijf"
+        "1": "Bedrijf",
+        "2": "Naam",
+        "3": "Achternaam",
+        "4": "Werknemers"
+    },
+    "Contact": {
+        "0": "Neem contact met ons op",
+        "1": "Naam",
+        "2": "Land",
+        "3": "Merk",
+        "4": "Model",
+        "5": "E-mail",
+        "6": "Verzend verzoek"
     },
     "Login": {
         "0": "LOG IN"
