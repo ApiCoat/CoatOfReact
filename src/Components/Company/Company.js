@@ -24,7 +24,6 @@ const Company = () => {
                 <title>{t('Company.0')}</title>
             </Helmet>
             <h1>{t('Company.1')}</h1>
-            <TableList />
             <div className="container">
                 <form onSubmit={sendEmail}>
                     <div className="row pt-5 mx-auto">
@@ -49,6 +48,7 @@ const Company = () => {
                     </div>
                 </form>
             </div>
+            <TableList />
           </div>
   );
 }
