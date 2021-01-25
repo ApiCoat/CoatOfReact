@@ -1,16 +1,54 @@
-This theme is specifically made for ApiCoat as an open source code.
+You can directly visit the deployed demo link:
+#### https://apicoat.netlify.app/
 
-Live link: 
-## https://apicoat.netlify.app/
+Follow these steps to run the app
 
-It includes Page Routing, i18next Localization(EN-DE-NL), Helmet, Bootstrap, jQuery and all of them are working great.
+#### `cd Desktop/`
 
-Please do contribute to complete this work and carry this out of its scope. It is getting really great day by day :)
+#### `git clone https://github.com/apiCoat/CoatOfReact`
 
-I am still working on the webpage, but it gives you an idea about this project.
+#### `cd CoatOfReact`
 
-## https://apicoat.com/
+#### `npm install`
 
+#### `npm start`
+
+
+This application made for ApiCoat and shared as open source.
+Official website of ApiCoat(still working on improving the website): 
+#### https://apicoat.com/
+
+
+Folder Structure
+```
+
+├── public/locales                        # This folder contains the language files
+├── Components/Company                    # This is the Folder for re-designing the Company page
+├── Components/Footer                     # This is the Folder for re-designing the Footer
+├── Components/Homepage                   # This is the Folder for re-designing the Homepage page
+├── Components/Navbar                     # This is the Folder for re-designing the Navbar
+├── Components/Notfound                   # This is the Folder for re-designing the 404 - Notfound page
+├── Components/Products                   # This is the Folder for re-designing the Products page
+├── Components/Resources                  # This is the Folder for re-designing the Resources page
+├── Components/Solutions                  # This is the Folder for re-designing the Solutions page
+├── Components/Technology                 # This is the Folder for re-designing the Technology page
+└── README.md
+```
+
+
+Used technologies:
+* Page Routing
+* Sass
+* i18next
+* i18next http backend
+* Bootstrap
+* jQuery
+* React cookie consent
+* React slick
+* Helmet
+* material-table
+
+To activate the contact form, visit emailjs.com and register an account.
 
 Why it named like "Coat of React"?
 We normally uses "Coat of arms of the City of London" or "Royal coat of arms of the United Kingdom" to target a logo design for defining a real place. The idea is same.
