@@ -39,6 +39,7 @@ Folder Structure
 
 
 Used technologies:
+* TypeScript
 * Page Routing
 * Sass
 * i18next
@@ -49,6 +50,7 @@ Used technologies:
 * React slick
 * Helmet
 * material-table
+* Storybook
 
 To activate the contact form, visit emailjs.com and register an account.
 
