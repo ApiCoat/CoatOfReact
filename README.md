@@ -13,6 +13,8 @@ Follow these steps to run the app
 
 #### `npm start`
 
+Storybook added to show our colors, you can check it with running:
+#### `npm run storybook`
 
 This application made for ApiCoat and shared as open source.
 Official website of ApiCoat(still working on improving the website): 
